@@ -1,0 +1,24 @@
+@import '@styles/variables';
+
+.root {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0 auto;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)),  url('../../assets/images/bg01.png');
+    background-color: $bgColor;
+    background-position: top left, top left,;
+    background-repeat: repeat-x, repeat;
+    background-size: 100% 0, auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-grow: 1;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
