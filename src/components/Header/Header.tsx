@@ -5,7 +5,7 @@ import styles from './Header.module.scss'
 const Header = () => {
     return (
         <div className={styles.header}>
-            <Link href='http://google.com'>
+            <Link href='/'>
                 <a className={styles.logo}>Backlogger</a>
             </Link>
         </div>

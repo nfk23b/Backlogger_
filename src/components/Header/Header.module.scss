@@ -1,12 +1,25 @@
+@import '@styles/mixins';
+@import '@styles/variables';
+
 .header {
     display: flex;
     justify-content: space-between;
     padding: 77px 0 48px;
+
+    // @include breakpoint(md) {
+    //     padding-left: 24px;
+    //     padding-right: 24px;
+    // }
+
+    // @include breakpoint(xl) {
+    //     padding-left: 0;
+    //     padding-right: 0;
+    // }
 }
 
 .logo {
-    background: #ff4486;
-    color: #fff;
+    background: $logo;
+    color: $white;
     border-radius: 6px;
     font-family: 'Oleo Script', serif;
     font-weight: 400;
@@ -15,5 +28,10 @@
     padding: 0 10px;
     font-size: 52px;
     letter-spacing: 0.05em;
+    margin: 0 auto;
+
+    @include breakpoint(md) {
+        margin: 0;
+    }
 }
 
