@@ -17,29 +17,10 @@
 .wrapper {
     display: flex;
     flex-grow: 1;
-    
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding: 0 16px;
-    
-    @include breakpoint(sm) {
-        padding: 0 24px;
-    }
-    
-    @include breakpoint(md) {
-        max-width: 960px;
-        padding: 0 10px;
-        margin: 0 auto;
-    }
-    
-    @include breakpoint(lg) {
-        max-width: 1200px;
-    }
-    
-    @include breakpoint(xl) {
-        max-width: 1400px;
-        padding: 0;
-    }
+
+    @include container;
 }

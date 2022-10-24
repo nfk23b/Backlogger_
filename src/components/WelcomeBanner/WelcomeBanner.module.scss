@@ -31,15 +31,11 @@
         margin: 12px 0 8px;
         
         @include breakpoint(md) {
-            font-size: 52px;
+            font-size: 44px;
         }
         
         @include breakpoint(lg) {
-            font-size: 56px;
-        }
-        
-        @include breakpoint(xl) {
-            font-size: 60px;
+            font-size: 52px;
         }
     }
 
@@ -48,18 +44,13 @@
         line-height: 33px;
         
         @include breakpoint(md) {
-            font-size: 40px;
-            line-height: 54px;
+            font-size: 32px;
+            line-height: 40px;
         }
         
         @include breakpoint(lg) {
-            font-size: 44px;
-            line-height: 60px;
-        }
-        
-        @include breakpoint(xl) {
-            font-size: 48px;
-            line-height: 64px;
+            font-size: 40px;
+            line-height: 54px;
         }
     }
 

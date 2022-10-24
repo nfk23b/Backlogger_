@@ -7,7 +7,7 @@ import img from './placeholder.jpg';
 
 const Card = () => {
     return (
-        <Link href='/'>
+        <Link href="/games/[id]" as={`/games/${1}`}>
           <a className={styles.card}>
             <Image layout='responsive' src={img} />
             <div className={styles.content}>
