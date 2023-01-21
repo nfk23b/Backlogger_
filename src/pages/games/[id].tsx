@@ -1,11 +1,11 @@
-import FullWidthContainer from '@components/FullWidthContainer';
-import styles from './Game.module.scss'
+import { ContentArea, FullWidthContainer, Sidebar } from '@src/index';
 
 export default () => {
 
     return (
         <FullWidthContainer>
-            test
+            <Sidebar />
+            <ContentArea />
         </FullWidthContainer>
     );
 };

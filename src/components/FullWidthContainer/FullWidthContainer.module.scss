@@ -22,4 +22,8 @@
     flex-direction: column;
 
     @include container;
+
+    @include breakpoint(md) {
+        flex-direction: row;
+    }
 }

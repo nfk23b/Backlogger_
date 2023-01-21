@@ -18,7 +18,7 @@
 }
 
 .logo {
-    background: $logo;
+    background: $secondary;
     color: $white;
     border-radius: $borderRadius;
     font-family: 'Oleo Script', serif;
@@ -29,9 +29,14 @@
     font-size: 52px;
     letter-spacing: 0.05em;
     margin: 0 auto;
+    text-decoration: none;
 
     @include breakpoint(md) {
         margin: 0;
+    }
+
+    &:hover {
+        color: $white;
     }
 }
 

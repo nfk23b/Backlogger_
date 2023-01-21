@@ -1,4 +1,4 @@
-import Header from "@components/Header";
+import { Header } from "@src/index";
 import React from "react";
 import styles from './Layout.module.scss'
 

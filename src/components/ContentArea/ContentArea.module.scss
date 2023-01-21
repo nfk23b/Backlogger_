@@ -1,0 +1,21 @@
+@import '@styles/mixins';
+@import '@styles/variables';
+
+.content {
+    width: 100%;
+    order: -1;
+    border-bottom: solid 1px $cloud;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    
+    @include breakpoint(md) {
+        border-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        order: 1;
+    }
+
+    .bottom {
+        margin-top: 24px;
+    }
+}

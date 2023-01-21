@@ -4,4 +4,29 @@ html {
 
 body {
     color: $text;
+    font-size: 16px;
+}
+
+a {
+    color: $primary;
+    transition: 0.3s;
+    text-decoration: underline;
+
+    &:hover {
+        color: $primary;
+        text-decoration: none;
+    }
+}
+
+.btn-primary {
+    background-color: $primary;
+    border-radius: 6px;
+    color: $white;
+    font-weight: 600;
+    border-color: $primary;
+
+    &:hover {
+        background-color: $primaryHover;
+        border-color: $primaryHover;
+    }
 }

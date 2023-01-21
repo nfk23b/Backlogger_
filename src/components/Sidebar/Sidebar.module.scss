@@ -2,5 +2,25 @@
 @import '@styles/variables';
 
 .sidebar {
+    width: 100%;
     
+    @include breakpoint(md) {
+        max-width: calc(100%/3);
+        width: 100%;
+        padding-right: 80px;
+    }
+
+    .bottom {
+        margin-top: 40px;
+    }
+
+    .list {
+        li {
+            margin-bottom: 12px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
 }
