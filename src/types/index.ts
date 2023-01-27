@@ -1,3 +1,17 @@
+export type FullWidthContainerProps = {
+    children: React.ReactNode
+}
+
+export type LayoutProps = {
+    children: React.ReactNode
+}
+
+export type CardItemType = {
+    children: React.ReactNode;
+    slug: string;
+    name: string;
+}
+
 export enum TypographyType {
     H1 = 'h1',
     H2 = 'h2',

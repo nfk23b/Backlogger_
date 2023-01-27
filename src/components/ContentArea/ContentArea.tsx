@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './ContentArea.module.scss'
 import { Typography } from "@src/index";
-import { TypographyMargin, TypographyType } from "@kit/Typography/types";
+import { TypographyMargin, TypographyType } from "@types";
 
 const ContentArea = () => {
     return (

@@ -1,10 +1,7 @@
 import { Header } from "@src/index";
 import React from "react";
 import styles from './Layout.module.scss'
-
-type LayoutProps = {
-    children: React.ReactNode
-}
+import { LayoutProps } from '@types';
 
 const Layout = (props: LayoutProps) => {
     return (

@@ -3,7 +3,7 @@ import styles from './Sidebar.module.scss'
 import { List } from 'reactstrap';
 import { isMobile } from "@helpers/index";
 import { Typography } from "@src/index";
-import { TypographyMargin, TypographyType } from "@kit/Typography/types";
+import { TypographyMargin, TypographyType } from "@types";
 import { Button } from "reactstrap";
 
 const Sidebar = () => {

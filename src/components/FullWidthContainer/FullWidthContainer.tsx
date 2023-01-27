@@ -1,9 +1,6 @@
 import React from "react";
-import styles from './FullWidthContainer.module.scss'
-
-type FullWidthContainerProps = {
-  children: React.ReactNode
-}
+import styles from './FullWidthContainer.module.scss';
+import { FullWidthContainerProps } from '@types';
 
 const FullWidthContainer = (props: FullWidthContainerProps) => {
     return (

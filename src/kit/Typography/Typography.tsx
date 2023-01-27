@@ -1,7 +1,7 @@
 import React from "react";
 import clsx from 'clsx';
 import styles from './Typography.module.scss'
-import { TypographyType, TypographyMargin, TypographyAlignment } from "./types";
+import { TypographyType, TypographyMargin, TypographyAlignment } from "@types";
 
 interface TypographyProps {
     variant: TypographyType,

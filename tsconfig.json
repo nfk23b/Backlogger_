@@ -16,6 +16,9 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
+      "@api/*": [
+        "./src/api/*"
+      ],
       "@pages/*": [
         "./src/pages/*"
       ],
@@ -41,7 +44,7 @@
         "./src/config/*"
       ],
       "@types*": [
-        "./src/__generated__/types.ts"
+        "./src/types"
       ],
       "@assets/*": [
         "./src/assets/*"

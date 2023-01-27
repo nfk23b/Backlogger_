@@ -7,6 +7,11 @@ const nextConfig = {
   },
   reactStrictMode: true,
   swcMinify: true,
+  env: {
+    CLIENT_ID: process.env.CLIENT_ID,
+    CLIENT_SECRET: process.env.CLIENT_SECRET,
+    GRANT_TYPE: process.env.GRANT_TYPE,
+  }
 }
 
 module.exports = nextConfig

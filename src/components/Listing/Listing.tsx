@@ -1,13 +1,22 @@
 import Card from "@components/Card";
 import React from "react";
 import styles from './Listing.module.scss'
+import { CardItemType } from '@types';
 
-const Listing = () => {
+export interface ListingProps {
+    data: CardItemType[]
+}
+
+const Listing = (props: ListingProps) => {
+    const {
+        data,
+        ...others
+    } = props;
+    
+// console.log(data)
     return (
         <div className={styles.listing}>
-            <Card />
-            <Card />
-            <Card />
+            {data && data.map((item: CardItemType) => <Card data={item} key={item.slug}/>)}
         </div>
       )
 };
